@@ -72,7 +72,7 @@ class CustomSlidableAction extends StatelessWidget {
   ///
   /// Defaults to [BorderRadius.zero].
   /// {@endtemplate}
-  final BorderRadius borderRadius;
+  final BorderRadiusGeometry borderRadius;
 
   /// {@template slidable.actions.padding}
   /// The padding of the OutlinedButton
@@ -171,7 +171,7 @@ class SlidableAction extends StatelessWidget {
   final String? label;
 
   /// Padding of the OutlinedButton
-  final BorderRadius borderRadius;
+  final BorderRadiusGeometry borderRadius;
 
   /// Padding of the OutlinedButton
   final EdgeInsets? padding;
